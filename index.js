@@ -70,7 +70,6 @@ document.addEventListener("scroll", e => {
 
 input.onkeydown = (e) => {
     requestAnimationFrame( () => {
-        console.log("tEst")
         lock = true
         let articles_div = article.querySelectorAll("a")
         for (let div of articles_div)
