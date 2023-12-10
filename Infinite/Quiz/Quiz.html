@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+
+    <link href="/style.css" rel="stylesheet">
+    <link href="/infinite.png" rel="icon">
+
+    <link href="/menu.css" rel="stylesheet">
+    <script src="/menu.js" defer></script>
+
+<style>
+
+input[type=radio], input[type=checkbox] {
+    display: inline-block;
+    margin-right: 12px;
+}
+input[type=button] {
+    transition: box-shadow 0.3s;
+    font-family: Verdana;
+}
+input[type=button]:hover:not(:disabled) {
+    cursor: pointer;
+    box-shadow: 0px 0px 16px #0004;
+}
+
+article > a {
+    transition: background-color 1.0s ease-out;
+}
+
+</style>
+
+    <script src="Quizs.js" defer></script>
+    <script src="Quiz.js" defer type="module"></script>
+
+</head>
+<body>
+    <h1>Quizz</h1>
+    <article>
+    </article>
+</body>
+</html>
