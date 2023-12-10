@@ -28,9 +28,9 @@ function addArticle(link) {
     let div = article.querySelector("a:last-of-type")
     div.style.display = div.innerText.includes(input.value) ? "" : "none"
 }
-addArticle("/meteo/meteo2.html")
-addArticle("/planning/planning.html")
-addArticle("/quiz/quiz.html?quiz=2")
+addArticle("meteo/meteo2.html")
+addArticle("planning/planning.html")
+addArticle("quiz/quiz.html?quiz=2")
 addArticle()
 
 function isScrollOut() {
