@@ -61,7 +61,6 @@ if (day > 5 || day == 0) {
     week += 1
 }
 
-console.log(day, week)
 img.src = `https://edt.univ-evry.fr/vue_etudiant_horizontale.php?current_year=2023&current_student=68426891&current_week=${week}&lar=1920&hau=1080`
 
 function left() {
