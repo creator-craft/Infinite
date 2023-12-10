@@ -30,7 +30,7 @@ function addArticle(link) {
 }
 addArticle("meteo/meteo2.html")
 addArticle("planning/planning.html")
-addArticle("quiz/quiz.html?quiz=2")
+addArticle("quiz/quiz.html?quiz=1")
 addArticle()
 
 function isScrollOut() {
@@ -70,6 +70,7 @@ document.addEventListener("scroll", e => {
 
 input.onkeydown = (e) => {
     requestAnimationFrame( () => {
+        console.log("tEst")
         lock = true
         let articles_div = article.querySelectorAll("a")
         for (let div of articles_div)
