@@ -1,4 +1,4 @@
-import {fetchJSON} from "utils.js"
+import {fetchJSON} from "../utils.js"
 
 fetchJSON("https://api.open-meteo.com/v1/forecast", {
     "latitude": 48.52,
