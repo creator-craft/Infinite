@@ -1,4 +1,4 @@
-import { getURLParams } from "/utils.js"
+import { getURLParams } from "../utils.js"
 
 function shuffle_(array) { return array.sort(() => Math.random() - 0.5) }
 /**

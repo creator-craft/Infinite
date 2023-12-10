@@ -1,4 +1,4 @@
-import * as utils from "/utils.js"
+import * as utils from "../utils.js"
 
 const current = {
     temperature_2m: document.querySelector("#current > p:nth-of-type(1)"),

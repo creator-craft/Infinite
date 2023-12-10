@@ -1,13 +1,13 @@
 
 document.body.innerHTML += `
-<img src="/menu.png" id="menu_button" tabindex=0>
+<img src="/Indinite/menu.png" id="menu_button" tabindex=0>
 <div id="menu">
     <div id="menu_background"></div>
     <div id="menu_content">
-        <a href="/index.html" id="menu_custom1">HOME</a>
-        <a href="/meteo/meteo2.html" id="menu_custom2">METEO</a>
-        <a href="/planning/planning.html" id="menu_custom3">PLANNING</a>
-        <a href="/quiz/quiz.html?quiz=1" id="menu_custom4">QUIZ</a>
+        <a href="/Indinite/index.html" id="menu_custom1">HOME</a>
+        <a href="/Indinite/meteo/meteo2.html" id="menu_custom2">METEO</a>
+        <a href="/Indinite/planning/planning.html" id="menu_custom3">PLANNING</a>
+        <a href="/Indinitequiz/quiz.html?quiz=1" id="menu_custom4">QUIZ</a>
     </div>
 </div>
 `
